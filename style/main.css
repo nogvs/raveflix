@@ -139,7 +139,7 @@ header .menu-ativo{
 /* Nacionais */
 
 .main-nacionais{
-    background: url('img/bg/background-nacionais.jpg');
+    background: url('../img/bg/background-nacionais.jpg');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -164,7 +164,7 @@ header .menu-ativo{
 /* Internacionais */
 
 .main-internacionais{
-    background: url('img/bg/background-internacionais.jpg');
+    background: url('../img/bg/background-internacionais.jpg');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -190,7 +190,7 @@ header .menu-ativo{
 /* Bombando */
 
 .main-bombando{
-    background: url('img/bg/background-bombando.jpg');
+    background: url('../img/bg/background-bombando.jpg');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -217,7 +217,7 @@ header .menu-ativo{
 /* Main Rave Styles */
 
 .main-rave{
-    background: url('img/bg/background-main.png');
+    background: url('../img/bg/background-main.png');
     height: 100vh;
     background-size: cover;
     display: flex;
