@@ -645,7 +645,11 @@ header .menu-ativo{
 }
 
 @media only screen and (min-width: 1200px){
-.description{
-    width: 50%;
-}
+    .description{
+        width: 50%;
+    }
+    .user a span i{
+        font-size: 10.5em;
+        margin-left: 15px;
+    }
 }
