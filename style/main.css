@@ -139,7 +139,7 @@ header .menu-ativo{
 /* Nacionais */
 
 .main-nacionais{
-    background: url('/img/bg/background-nacionais.jpg');
+    background: url('img/bg/background-nacionais.jpg');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -164,7 +164,7 @@ header .menu-ativo{
 /* Internacionais */
 
 .main-internacionais{
-    background: url('/img/bg/background-internacionais.jpg');
+    background: url('img/bg/background-internacionais.jpg');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -190,7 +190,7 @@ header .menu-ativo{
 /* Bombando */
 
 .main-bombando{
-    background: url('/img/bg/background-bombando.jpg');
+    background: url('img/bg/background-bombando.jpg');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -217,7 +217,7 @@ header .menu-ativo{
 /* Main Rave Styles */
 
 .main-rave{
-    background: url('/img/bg/background-main.png');
+    background: url('img/bg/background-main.png');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -235,7 +235,7 @@ header .menu-ativo{
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 1.2vw;
+    font-size: 1.5em;
     line-height: 34px;
     text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
 }
@@ -298,13 +298,13 @@ header .menu-ativo{
 }
 
 .raves-container h2 {
-    font-size: 1.4vw;
+    font-size: 1.5em;
     margin-bottom: 15px;
 }
 
 .raves-container a {
     text-decoration: none;
-    font-size: 1.4vw;
+    font-size: 1em;
     color: #e5e5e5;
 }
 
@@ -393,20 +393,254 @@ header .menu-ativo{
 
 /* Responsive Styles */
 
-@media screen and (max-width: 700px){
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     header .container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+    header .menu {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    header .side-menu{
+      position: absolute;
+      top:-10;
+      right: -60px;
+    }
+    
+    header nav a{
+     font-size: 14px;
+    }
+
+    .main-rave .container{
+        margin-top: 15%;
+    }
+
+   .main-rave .container img{
+        width: 60%;
+   }
+
+   .main-nacionais .container{
+    margin-top: 15%;
+    }
+
+    .main-nacionais .container img{
+        width: 60%;
+    }
+
+    .main-internacionais .container{
+        margin-top: 15%;
+    }
+
+    .main-internacionais .container img{
+        width: 60%;
+    }
+
+    .main-bombando .container{
+        margin-top: 15%;
+    }
+
+    .main-bombando .container img{
+        width: 30%;
+    }
+
+   .description{
+       font-size: 16px;
+   }
+
+   .btn-info, .btn-watch{
+       margin-bottom: 20px;
+   }
+
+   .raves-container{
+    margin-top: -15%;
+   }
+
+    .logo-landing{
+        position: absolute;
+        left: 0;
+    }
+    
+    .main-landing h1{
+        font-size: 2.0em;
+        margin-top: 45%;
+    }
+    
+    .user img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .user a span i{
+        font-size: 4.5em;
+        margin-left: 15px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
     .btn{
         margin-top: 5px;
         width: 300px;
     }
-}
 
-@media screen and (min-width: 1000px){
-    .description{
-        width: 50%;
+    header .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .menu {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    header .side-menu{
+      position: absolute;
+      top:-10;
+      right: -60px;
+    }
+    
+    header nav a{
+     font-size: 14px;
+    }
+
+    .main-rave .container{
+        margin-top: 15%;
+    }
+
+   .main-rave .container img{
+        width: 60%;
+   }
+
+   .main-nacionais .container{
+    margin-top: 15%;
+    }
+
+    .main-nacionais .container img{
+        width: 60%;
+    }
+
+    .main-internacionais .container{
+        margin-top: 15%;
+    }
+
+    .main-internacionais .container img{
+        width: 60%;
+    }
+
+    .main-bombando .container{
+        margin-top: 15%;
+    }
+
+    .main-bombando .container img{
+        width: 30%;
+    }
+
+   .description{
+       font-size: 16px;
+   }
+
+   .btn-info, .btn-watch{
+       margin-bottom: 20px;
+   }
+
+   .raves-container{
+    margin-top: -15%;
+   }
+
+    .logo-landing{
+        position: absolute;
+        left: 0;
+    }
+    
+    .main-landing h1{
+        font-size: 2.0em;
+        margin-top: 45%;
+    }
+    
+    .user img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .user a span i{
+        font-size: 4.5em;
+        margin-left: 15px;
     }
 }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .main-landing h1{
+        font-size: 2.0em;
+        margin-top: 35%;
+    }
+
+    .description{
+        font-size: 16px;
+    }
+ 
+    .main-internacionais .container img{
+        width: 60%;
+    }
+
+    .main-rave .container img{
+        width: 60%;
+   }
+
+   .main-bombando .container img{
+            width: 30%;
+    }
+        
+    .main-nacionais .container img{
+        width: 60%;
+    }
+
+   
+    .user img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .user a span i{
+        font-size: 5.5em;
+        margin-left: 15px;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .description{
+        width: 60%;
+    }
+
+    .main-landing h1{
+        font-size: 2.0em;
+        margin-top: 25%;
+    }
+    
+
+    .user img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .user a span i{
+        font-size: 8.5em;
+        margin-left: 15px;
+    }
+}
+
