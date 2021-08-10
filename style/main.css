@@ -78,7 +78,7 @@ header .menu-ativo{
 }
 
 .dropdown ul {
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.9);
     position: absolute;
     top: 70px;
     right: 40px;
@@ -393,6 +393,166 @@ header .menu-ativo{
 
 /* Responsive Styles */
 
+@media only screen and (max-width: 400px){
+    .main-landing h1{
+        margin-top: 45%;
+    }
+    
+    .user h5{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .menu {
+        display: flex;
+        flex-direction: column;
+      }
+      
+    header .side-menu{
+        position: absolute;
+        top:10px;
+        right: 60px;
+      }
+
+      header nav a{
+        font-size: 5px;
+        margin-right: 5px;
+       }
+
+       .btn-info, .btn-watch{
+           font-size: 16px;
+       }
+
+       .logo{
+           position: relative;
+           top: -25px;
+           right: 120px;
+       }
+
+       .users-container{
+           flex-direction: column;
+       }
+
+       .user a span i{
+        font-size: 0.5em;
+        margin-right: 25px;
+    }
+       
+}
+
+/* Extra small devices */
+@media only screen and (min-width: 400px) and (max-width: 500px){
+    
+    header .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .menu {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+      
+
+    header .side-menu{
+        position: absolute;
+        top:10px;
+        right: 60px;
+      }
+
+      header nav a{
+        font-size: 12px;
+       }
+   
+      .main-landing h1{
+        font-size: 2em;
+        margin-top: 45%;
+    }
+    
+    .user{
+        margin-right: 10px;
+    }
+
+    .user img{
+        width: 10px;
+        height: 10px;
+    }
+
+    .user a span i{
+        font-size: 20em;
+    }
+
+    .user h5{
+        font-size: 14px;
+    }
+
+      .main-rave .container{
+           margin-top: 15%;
+       }
+   
+      .main-rave .container img{
+           width: 60%;
+      }
+   
+      .main-nacionais .container{
+       margin-top: 15%;
+       }
+   
+       .main-nacionais .container img{
+           width: 60%;
+       }
+   
+       .main-internacionais .container{
+           margin-top: 15%;
+       }
+   
+       .main-internacionais .container img{
+           width: 60%;
+       }
+   
+       .main-bombando .container{
+           margin-top: 15%;
+       }
+   
+       .main-bombando .container img{
+           width: 30%;
+       }
+   
+      .description{
+          font-size: 16px;
+      }
+   
+      .btn-info, .btn-watch{
+          margin-bottom: 20px;
+      }
+   
+      .raves-container{
+       margin-top: -15%;
+      }
+   
+       .logo-landing{
+           position: absolute;
+           left: 0;
+       }
+       
+       .main-landing h1{
+           font-size: 2.0em;
+           margin-top: 45%;
+       }
+    
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     header .container{
@@ -473,13 +633,13 @@ header .menu-ativo{
     }
     
     .user img{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .user a span i{
-        font-size: 4.5em;
-        margin-left: 15px;
+        font-size: 3.5em;
+        margin-left: 30px;
     }
 }
 
@@ -565,7 +725,7 @@ header .menu-ativo{
     
     .main-landing h1{
         font-size: 2.0em;
-        margin-top: 45%;
+        margin-top: 35%;
     }
     
     .user img{
